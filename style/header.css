@@ -1,0 +1,47 @@
+.header__container{
+    margin-left: var(--padding);
+    max-width: var(--content);
+    height: 72px;
+    display: block;
+    display: grid;
+    grid-template-columns: minmax(700px, 724px) minmax(auto, 40px) minmax(auto, 40px) minmax(auto, 40px);
+    align-items: center;
+}
+.header__logo{
+    width: 120px;
+    height: 13px;
+    background-repeat: no-repeat;
+    background: url("../assets/logo.svg");
+}
+.button{
+    width: 80px;
+    height: 40px;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid #E0E0E0;
+}
+.header__sign-in{
+    background: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+.header__register{
+    font-size: 13px;
+    background: #262626;
+    color: var(--white);
+    margin-left: 15px;
+}
+.header__shop-link{
+    width: 19px;
+    height: 24px;
+    margin-left: 28px;
+    background: url("../assets/header__shop-link.svg");
+    background-repeat: no-repeat;
+}
+.button:hover{
+  background: #57AD56;
+  color: var(--white);
+}
+.header__shop-link:hover{
+    filter: invert(58%) sepia(49%) saturate(477%) hue-rotate(71deg) brightness(93%) contrast(88%);
+}
