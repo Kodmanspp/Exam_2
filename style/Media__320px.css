@@ -1,0 +1,154 @@
+@media (max-width: 320px){
+    :root{
+        --green: #327430;
+        --gray: #626262;
+        --white: #FFFFFF;
+        --weight500: font-weight: 500;
+        --weigth400: font-weight: 400;
+        --container: 320px;
+        --padding: 8px;
+        --content: 306px; 
+
+    }
+    .header__container{
+        grid-template-columns:153px 83px 100px 0px;
+        
+    }
+    .header__sign-in{
+        width: 72px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .header__register{
+        width: 72px;
+        margin-left: 0px;
+        font-size: 11px;
+    line-height: 13px;
+    }
+    .header__shop-link{
+        display: none;
+    }
+    .main{
+        grid-template-rows: 367px 821px 1fr;
+    }
+    .head__title{
+        background:url("../assets/header-back__320px.svg");
+        height: 255px;
+    }
+    .head__presentation{
+        margin-top: 130px;
+        width: 308px;
+        height: 180px;
+        display: inline-block;
+    }
+    .cafe-name{
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 26px;
+        margin-left: -1px;
+    }
+    .small-comment{
+        margin-top: 40px;
+        margin-left: -2px;
+    }
+    .waiting-time{
+        margin-top: 15px;
+        margin-left: 105px;
+    }
+
+
+    .main__nav-block{
+        display: none;
+    }
+    .menu{
+        height: var(--container);
+        position: relative;
+    }
+    .menu__title{
+        margin-top: 0px;
+        margin-left: 118px;
+    }
+    .title__bottom-border{
+        width: 50px;
+        height: 1;
+        border-bottom: 1px solid #757575;
+        position: absolute;
+        top: 46px;
+        left: 135px;
+    }
+    .menu__content{
+        margin-top: 28px;
+        display: grid;
+        grid-template-rows: repeat(6, 102px);
+        grid-template-columns: 1fr;
+        grid-row-gap: 16px;
+    }
+
+    .menu__dishes{
+        width: 306px;
+        height: 102px;
+        border: none;
+        border-bottom: 1px solid #757575;
+        background: #FFFFFF;
+        grid-gap: 0px;
+        grid-template-columns: 206px 102px;
+        margin-top: -1px;
+    }
+    .dishes__title{
+        max-width: 188px;
+        max-height: 24px;
+        font-size: 14px;
+        overflow: hidden;
+        line-height: 24px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .dishes__description{
+        font-size: 13px;
+        line-height: 21px;
+        margin-left: -1px;
+    }
+    .dishes__price{
+        margin-top: 16px;
+        margin-left: 0px;
+    }
+    .dishes__image{
+      width: 102px;
+      height: 102px;
+    }
+    .footer{
+        height: 770px;
+    }
+    .footer__container{
+        grid-template-rows: 116px 494px 150px;
+    }
+    .footer__links{
+        display: block;
+        
+    }
+    .footer__about-link{
+        margin-left: 0px;
+        margin-top: -1px;
+    }
+    .footer__help-link{
+    margin-left: 0;
+    margin-top: -42px;
+    }
+    .footer__info{
+        display: grid;
+        grid-template-rows: 37px 37px 50px;
+        grid-template-columns: 1fr;
+
+    }
+    .info__link{
+        margin-top: 32px;
+    }
+    .footer__language{
+        display: grid;
+        padding: 15px 16px;
+        grid-template-columns: 31px 104px 20px;
+    }
+    .language__text{
+        margin-top: -2px;
+    }
+}
