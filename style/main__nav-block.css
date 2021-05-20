@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.main__nav-block{
+    width: var(--container);
+    height: 79px;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+.nav__container{
+    display: grid;
+    width: var(--content);
+    margin-top: 31px;
+    align-items: center;
+    grid-template-columns: minmax(auto, 100px) minmax(auto,99px) minmax(auto,81px) minmax(auto,155px) minmax(auto,104px) minmax(auto,81px);
+    margin-left: var(--padding);
+}
+.main__nav{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    margin-top: 2px;
+    color: var(--grey);
+}
+.main__nav_green{
+    color: var(--green);
+}
