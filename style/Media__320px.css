@@ -30,6 +30,7 @@
     }
     .main{
         grid-template-rows: 367px 821px 1fr;
+        grid-template-columns: 320px;
     }
     .head__title{
         background:url("../assets/header-back__320px.svg");
@@ -68,6 +69,7 @@
         margin-top: 0px;
         margin-left: 118px;
         width: 100px;
+        margin-right: 0;
     }
     .title__bottom-border{
         width: 50px;
@@ -79,7 +81,7 @@
     }
     .menu__content{
         margin-top: 28px;
-        max-width: var(--container);
+        max-width: 310px;
         display: grid;
         grid-template-rows: repeat(6, 102px);
         grid-template-columns: 1fr;
